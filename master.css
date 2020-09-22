@@ -1,15 +1,19 @@
+/*Do caratteristiche comuni a tutti gli elementi della pagina*/
 *{
   margin: 0;
   box-sizing: border-box;
 
 }
+/*Do lo sfondo al body*/
 body{
   background-image: url("img/natural-pattern.png");
 }
+/*inserisco delle proprietà al container*/
 .container{
   width: 1000px;
   margin: 0 auto;
 }
+/*proprietà all'header top*/
 .header-top{
   background-image: url("img/natural-header.jpg");
   text-align: center;
@@ -18,48 +22,42 @@ body{
 
 
 }
+/*Do caratteristiche al testo della header top*/
 .header-top h2{
   color: white;
   margin-bottom: 30px;
 }
-.menu li a{
-  color: white;
-  text-decoration: none;
-  padding: 0 5px;
-}
+
+
+/*inserisco delle proprietà particolari nel moemnto in cui si passa sopra col mouse alla nav*/
 .menu a:hover{
   background-color: lightgrey;
   cursor: pointer;
 }
+/*Do proprietà al testo della nav. Ho utilizzato la pseudo classe any link perchè mi era suggerita dall'analisi inspect sull'anteprima della pagina*/
 .menu a:any-link{
   color: white;
   text-decoration: none;
   padding: 0 5px;
 }
+/*Do proprietà agli elementi della lista*/
 .menu li{
   display: inline-block;
   margin: 15px auto;
 }
-
+/*Do proprietà alla nav*/
 .menu{
   text-align: center;
   background-color: grey;
   height: 50px;
 }
-
+/*Do proprietà al testo della nav*/
 .row::after{
   content: "";
   display: table;
   clear: both;
 }
-/*.column{
-  background-color: white;
-  border-radius: 5px;
-  text-align: center;
-  margin-top: 15px;
-  padding: 10px;
 
-}*/
 .col-1{
   float: left;
   width: 20%;
@@ -97,4 +95,19 @@ body{
   text-align: center;
   margin-top: 15px;
   padding: 10px;
+}
+footer{
+  width: 1000px;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+footer p{
+  text-decoration: none;
+  color: black;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin: 0 50px;
 }
