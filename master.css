@@ -52,30 +52,49 @@ body{
   display: table;
   clear: both;
 }
-.column{
+/*.column{
   background-color: white;
   border-radius: 5px;
   text-align: center;
   margin-top: 15px;
   padding: 10px;
 
-}
+}*/
 .col-1{
   float: left;
   width: 20%;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
 }
 .col-2{
   float: left;
   width: 50%;
   margin-left: 5%;
   margin-right: 5%;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
 }
 .col-3{
   width: 20%;
   float: left;
 
+
 }
 .column p {
   color: black;
   font-family: sans-serif;
+}
+.box-1, .box-2, .box-3{
+  padding: 10px 0;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
 }
