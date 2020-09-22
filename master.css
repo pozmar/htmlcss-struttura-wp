@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-image: url("img/natural-pattern.png");
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.header-top{
+  background-image: url("img/natural-header.jpg");
+  text-align: center;
+  border: 5px solid white;
+  background-repeat: no-repeat;
+
+
+}
+.header-top h2{
+  color: white;
+  padding-bottom: 50px;
+  background-size: cover;
+
+}
+.header-top > .menu li a{
+  color: white;
+  text-decoration: none;
+  padding: 0 5px;
+}
+.menu a:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.menu a:any-link{
+  color: white;
+  text-decoration: none;
+  padding: 0 5px;
+}
+.menu li{
+  display: inline-block;
+  margin: 15px auto;
+}
+
+.menu{
+  text-align: center;
+  background-color: grey;
+  height: 50px;
+}
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+.col-1-of-3{
+  float: left;
+  width: 15%;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+.col-2-of-3{
+  width: 55%;
+  float: left;
+
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+.col-3-of-3{
+  width: 15%;
+  float: left;
+}
+.first, .second, .third{
+  background-color: white;
+  border-radius: 5px;
+}
