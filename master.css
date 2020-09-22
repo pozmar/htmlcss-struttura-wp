@@ -20,11 +20,9 @@ body{
 }
 .header-top h2{
   color: white;
-  padding-bottom: 50px;
-  background-size: cover;
-
+  margin-bottom: 30px;
 }
-.header-top > .menu li a{
+.menu li a{
   color: white;
   text-decoration: none;
   padding: 0 5px;
@@ -48,35 +46,36 @@ body{
   background-color: grey;
   height: 50px;
 }
+
 .row::after{
   content: "";
-  display: block;
+  display: table;
   clear: both;
-
 }
-
-.col-1-of-3{
-  float: left;
-  width: 15%;
+.column{
   background-color: white;
   border-radius: 5px;
-  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
 
 }
-.col-2-of-3{
-  width: 55%;
+.col-1{
+  float: left;
+  width: 20%;
+}
+.col-2{
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.col-3{
+  width: 20%;
   float: left;
 
-  background-color: white;
-  border-radius: 5px;
-  display: inline-block;
-
 }
-.col-3-of-3{
-  width: 15%;
-  float: left;
-}
-.first, .second, .third{
-  background-color: white;
-  border-radius: 5px;
+.column p {
+  color: black;
+  font-family: sans-serif;
 }
